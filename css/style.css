@@ -36,8 +36,6 @@
 }
 
 .menu{
-	background-image: url("../imagens/fundo-titulo.png");
-	background-repeat: no-repeat;
 	height: 82px;
 	padding-left: 245px;
 	background-position-x: 134px;
@@ -79,26 +77,10 @@ h1{
 	    border-style: solid;
 }
 .imagem-zumbie{
-	    background-image: url("../imagens/fundo-zumbie-menor.jpg");
+	    background-image: url("../imagens/foto-fundo-zumbie-brz.jpg");
 	    background-repeat: no-repeat;
 	    background-position: center 0;
 	    min-height: 450px;
-	    background-size: cover;
-}
-.banner-lideres{
-		margin-top: 33px;
-		height: 240px;
-		width: 80%;
-		border-width: 20px;
-		border-style: solid;
-		margin-left: 100px;
-}
-
-.imagens-lideres{
-	 	background-image: url("../imagens/foto-logo-brz.jpg");
-	 	background-repeat: no-repeat;
-	    background-position: center;
-	    min-height: 240px;
 	    background-size: cover;
 }
 
@@ -119,13 +101,19 @@ h1{
 
 .quadro{
 	border-radius: 10px 10px 0 0;
-	width: 35%;
+	width: 25%;
 	height: 300px;
 	background: #000;
 	border: 1px solid rgba(214,214,214,0.50);
 }
 
+.quadro li {
+    margin-bottom: 5px;
+    
+}
+
 .quadro li span{
+	font-family: "Helvetica";
 	color: #F0F8FF;
 }
 
@@ -140,9 +128,73 @@ h1{
 	text-align: center;
 }
 
-.quadro-noticias{float:left;margin-left: 60px;width: 45%;}
+.quadro-noticias{
+	float:left;
+	margin-left: 135px;
+	width: 40%;
+}
+ul{
+	color: #FFF;
+}
 
 .quadro-ranking{
     float: right;
-    margin-right: 60px;
+    margin-right: 145px;
 }
+ol{
+	color: #FFF;
+}
+
+.membros{
+	
+	    height: 450px;
+	    width: 75%;
+	    margin: auto;
+	    border-width: 20px;
+	    border-style: solid;
+}
+.texto-quem-somos{
+		background-color: rgba(0, 0, 0, 0.41);
+		margin-top: 33px;
+		height: 540px;
+		width: 78%;
+		margin-left: 145px;
+
+}
+.texto-quem-somos p{
+	font-size: 1.4em;
+	padding: 8px;
+	border-radius: 10px 10px 0 0;
+	color: #F0F8FF;
+	margin-top: initial;
+}
+
+.quadro-lideres{
+	background-color: #FFF;
+	background-repeat: no-repeat;
+    width: 80%;
+    margin: 100px;
+  	height: 800px;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	/*.quadro-fotos.lideres-r-4{
+	tem todas propriedades de quadro fotos mais as suas propriedade
+		nota: essa classe tem prioridade a classe pai (.quadro-fotos);
+	*/
