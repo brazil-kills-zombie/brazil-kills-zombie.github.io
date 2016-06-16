@@ -175,6 +175,57 @@ ol{
     width: 80%;
     margin: 100px;
   	height: 800px;
+ }
+
+ .gif-wrapper{
+ 	width: 100%;
+ 	text-align: right;
+ }
+
+ .banner-brz{
+ 	text-align: center;
+ }
+
+.banner-brz h2{
+	  font-family: "shlop-rg";
+	  font-size: 10em;
+	  color: #FFF;
+	  margin: 0;
+}
+table{
+	border-collapse: collapse;
+	color: #FFF;
+	width: 50%;
+	margin-left: 25%;
+	margin-top: 70px;
+}
+ tr:hover {
+          background-color: #ffff99;
+}
+
+th{
+	
+	width:5 px;
+	border: 1px solid white;
+	padding: 5px;
+	background-color: rgba(16, 16, 16, 0.54);
+	font-size: 1.1em;
+
+}
+td{
+	border: 1px solid white;
+	background-color: rgba(16, 16, 16, 0.54);
+	font-size: 1.4em;
+	text-align: center;
+
+}
+table img{
+	    width: 50px;
+    margin-top: 5px;
+    margin-left: 10px;
+    color: rgba(0, 0, 0, 0);
+ 
+}
 
 
 
@@ -183,14 +234,7 @@ ol{
 
 
 
-
-
-
-
-
-
-
-
+s
 
 
 
