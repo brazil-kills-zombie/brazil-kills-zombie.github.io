@@ -1,18 +1,19 @@
-.main-background{
-	background-color: rgba(0,0,0,1);
-	background-image: url("../imagens/fundo-principal.png");
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
-	margin: 0;
-	top: 23px;
-	right: 0;
-	bottom: 0;
-	border-top: 6px solid rgba(178, 15, 12, 1);
-	border-bottom: 6px solid rgba(178, 15, 12, 1);
-	height: 100%;
-	min-height: 100%;
-	padding-bottom: 30px;
+.main-background {
+    background-color: rgba(0, 0, 0, 1);
+    background-image: url("../imagens/fundo-principal.png");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: auto;
+    background-attachment: fixed;
+    margin: 0;
+    top: 23px;
+    right: 0;
+    bottom: 0;
+    border-top: 6px solid rgba(178, 15, 12, 1);
+    border-bottom: 6px solid rgba(178, 15, 12, 1);
+    height: 100%;
+    min-height: 100%;
+    padding-bottom: 30px;
 }
 
 .alianca{
