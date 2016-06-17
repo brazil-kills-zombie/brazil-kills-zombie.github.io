@@ -192,53 +192,5 @@ ol{
 	  color: #FFF;
 	  margin: 0;
 }
-table{
-	border-collapse: collapse;
-	color: #FFF;
-	width: 50%;
-	margin-left: 25%;
-	margin-top: 70px;
-}
- tr:hover {
-          background-color: #ffff99;
-}
-
-th{
-	
-	width:5 px;
-	border: 1px solid white;
-	padding: 5px;
-	background-color: rgba(16, 16, 16, 0.54);
-	font-size: 1.1em;
-
-}
-td{
-	border: 1px solid white;
-	background-color: rgba(16, 16, 16, 0.54);
-	font-size: 1.4em;
-	text-align: center;
-
-}
-table img{
-	    width: 50px;
-    margin-top: 5px;
-    margin-left: 10px;
-    color: rgba(0, 0, 0, 0);
- 
-}
 
 
-
-
-
-
-
-
-s
-
-
-
-	/*.quadro-fotos.lideres-r-4{
-	tem todas propriedades de quadro fotos mais as suas propriedade
-		nota: essa classe tem prioridade a classe pai (.quadro-fotos);
-	*/
