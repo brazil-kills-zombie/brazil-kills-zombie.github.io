@@ -1,3 +1,17 @@
+*{
+	  box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    min-height: 100%;
+}
+
+body{
+	font-family: Helvetica;
+	font-size: 14px;
+}
+
 .main-background {
     background-color: rgba(0, 0, 0, 1);
     background-image: url("../imagens/fundo-principal.png");
@@ -18,11 +32,12 @@
 
 .alianca{
 	color: #FFF;
-    border-top: 0px;
-    margin: 0 30px 0 0;
-    display: inline-block;
-    font-size: 2em;
-    line-height: 43px;
+	/* padding-left: 144px; */
+	border-top: 0px;
+	margin: 0 30px 0 0;
+	display: inline-block;
+	font-size: 2em;
+	line-height: 43px;
 }
 
 .menu .alianca span{
@@ -38,7 +53,6 @@
 
 .menu{
 	height: 82px;
-	padding-left: 245px;
 	background-position-x: 134px;
 }
 
@@ -61,7 +75,6 @@
 .menu-wrapper {
     display: inline-block;
     float: right;
-    padding-right: 850x;
 }
 
 h1{
@@ -212,9 +225,18 @@ ol{
 
 }
 
-.texto-lewz{
+.texto-lewz{ 	 	
 		background-color: rgba(0, 0, 0, 0.41);
 		margin-top: 33px;
+
+		/* Telefones em landscape e abaixo */
+@media (max-width: 480px) { ... }
+/* Telefone em landscape a tablet em portrait */
+@media (max-width: 767px) { ... }
+/* tablet em portrait a landscape e desktop */
+@media (min-width: 768px) and (max-width: 979px) { ... }
+/* Desktop grande */
+@media (min-width: 1200px) { ... }
 		height: 840px;
 		width: 78%;
 		margin-left: 145px;
@@ -226,4 +248,36 @@ ol{
 	border-radius: 10px 10px 0 0;
 	color: #F0F8FF;
 	margin-top: initial;
+}
+
+.mapa-site{
+	background-image: url("../imagens/oie_transparent.png");
+	width: 800px;
+	margin-top: 10%;
+    height: 400px;
+    margin: auto;
+    background-size: contain;
+    background-repeat: no-repeat;
+} 	 
+
+.video{
+	position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    top: -30px;
+    background-size: cover;
+    display: inline-block;
+    vertical-align: baseline;
+}
+
+
+.box-center{
+	margin: auto;
+	text-align: center;
+	position: relative;
 }
